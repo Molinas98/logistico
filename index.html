@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Logístico</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css"/>
+    <link rel="stylesheet" href="assets/plugins/slick/slick.css">
+	<link rel="stylesheet" href="assets/plugins/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="assets/plugins/fontawesome-pro-5.0.6/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/icono.png">
+</head>
+<body>
+    <header>
+		<nav>
+			<div class="navbar navbar-expand-xl">
+				<div class="container" id="responsiveContainer">
+					<a class="navbar-brand logo me-0" href="index.html">
+						<img src="assets/img/logo.png" alt="logo">
+					</a>
+					<div class="nav-acciones">
+						<div class="collapse navbar-collapse offcanvas offcanvas-top" id="navbarMenu">
+							<ul class="offcanvas-body navbar-nav categorias container">
+								<li class="nav-item dropdown mega-dropdown">
+									<a class="nav-link" id="navbarDropdown" role="button"
+										data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										Comercios
+										<img src="assets/img/icons/arrow-down.svg" class="ms-2 ">
+									</a>
+									<div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown"
+										data-bs-popper="static">
+										<ul class="menu ps-0">
+											<a class="dropdown" href="#">
+												<li class="menu-title">Comercio 1</li>
+											</a>
+											<a class="dropdown" href="#">
+												<li class="menu-title">Comercio 2</li>
+											</a>
+											<a class="dropdown" href="#">
+												<li class="menu-title">Comercio 3</li>
+											</a>
+										</ul>
+									</div>
+								</li>
+								<li class="nav-item dropdown mega-dropdown">
+									<a class="nav-link" id="navbarDropdown2" role="button"
+										data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										Funciones
+										<img src="assets/img/icons/arrow-down.svg" class="ms-2 ">
+									</a>
+									<div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown2"
+										data-bs-popper="static">
+										<ul class="menu ps-0">
+											<a class="dropdown" href="#">
+												<li class="menu-title">Funciones 1</li>
+											</a>
+											<a class="dropdown" href="#">
+												<li class="menu-title">Funciones 2</li>
+											</a>
+											<a class="dropdown" href="#">
+												<li class="menu-title">Funciones 3</li>
+											</a>
+										</ul>
+									</div>
+								</li>
+								<li class="nav-item dropdown mega-dropdown">
+									<a class="nav-link" id="navbarDropdown3" role="button"
+										data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										Nosotros
+										<img src="assets/img/icons/arrow-down.svg" class="ms-2">
+									</a>
+									<div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown3"
+										data-bs-popper="static">
+										<ul class="menu ps-0">
+											<a class="dropdown" href="#">
+												<li class="menu-title">Nosotros 1</li>
+											</a>
+											<a class="dropdown" href="#">
+												<li class="menu-title">Nosotros 2</li>
+											</a>
+											<a class="dropdown" href="#">
+												<li class="menu-title">Nosotros 3</li>
+											</a>
+										</ul>
+									</div>
+								</li>
+								<a href="#"><li>Contacto</li></a>
+								<a href="#" class="center-x ms-3"><li class="btn-base">Login Usuario</li></a>
+							</ul>
+						</div>
+						<button class="navbar-toggler hamburger" type="button" data-bs-toggle="offcanvas"
+						data-bs-target="#navbarMenu" aria-controls="navbarMenu"
+						aria-label="Toggle navigation">
+							<label class="toggle">
+								<div class="bar bar--top"></div>
+								<div class="bar bar--middle"></div>
+								<div class="bar bar--bottom"></div>
+							</label>
+						</button>
+					</div>
+
+				</div>
+			</div>
+		</nav>
+	</header>
+    <main class="py-5 my-5">
+		<section class="portada-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<span>DIRECTO A TU PUERTA</span>
+						<h1>PLATAFORMA<br> LOGÍSTICA PARA<br><span class="text-skyblue">E-COMMERCE Y MYPYMES</span></h1>
+						<p>Automatizamos los procesos logísticos de las empresas con nuestra API y consultoría</p>
+						<a href="#" class="btn-base blue">
+							Hablar con un asesor
+							<i class="fas fa-arrow-right ms-2"></i>
+						</a>
+					</div>
+					<div class="col-lg-6 position-relative text-end">
+						<img class="img-fluid phone" src="assets/img/others/phone.png">
+						<img class="img-fluid" src="assets/img/others/notebook.png">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="clientes-section">
+			<div class="container">
+				<h2>Empresas que confían en nosotros</h2>
+				<dseiv class="row carrusel-clientes">
+					<div class="cliente">
+						<div class="ct-imagen">
+							<img class="img-fluid" src="assets/img/clientes/hardRock.png">
+						</div>
+					</div>
+					<div class="cliente">
+						<div class="ct-imagen">
+							<img class="img-fluid" src="assets/img/clientes/sallustro.png">
+						</div>
+					</div>
+					<div class="cliente">
+						<div class="ct-imagen">
+							<img class="img-fluid" src="assets/img/clientes/mbojao.png">
+						</div>
+					</div>
+					<div class="cliente">
+						<div class="ct-imagen">
+							<img class="img-fluid" src="assets/img/clientes/laQueseria.png">
+						</div>
+					</div>
+					<div class="cliente">
+						<div class="ct-imagen">
+							<img class="img-fluid" src="assets/img/clientes/kurupi.png">
+						</div>
+					</div>
+					<div class="cliente">
+						<div class="ct-imagen">
+							<img class="img-fluid" src="assets/img/clientes/andreaMaria.png">
+						</div>
+					</div>
+					<div class="cliente">
+						<div class="ct-imagen">
+							<img class="img-fluid" src="assets/img/clientes/blueTower.png">
+						</div>
+					</div>
+					<div class="cliente">
+						<div class="ct-imagen">
+							<img class="img-fluid" src="assets/img/clientes/techo.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="solucion-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+						<div class="solucion">
+							<img class="img-fluid" src="assets/img/others/solucion1.png" alt="portada solución">
+							<div class="info">
+								<h3>Pedidos On-demand</h3>
+								<p>Tus delivery disponibles 24/7en el momento que necesites</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+						<div class="solucion">
+							<img class="img-fluid" src="assets/img/others/solucion2.png" alt="portada solución">
+							<div class="info">
+								<h3>Seguro en envíos</h3>
+								<p>Todas las entregas aseguradas por Mapfre</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+						<div class="solucion">
+							<img class="img-fluid" src="assets/img/others/solucion3.png" alt="portada solución">
+							<div class="info">
+								<h3>Métricas de envíos</h3>
+								<p>Te damos acceso a un panel de control general</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 col-xl-3 mb-4 mb-lg-0">
+						<div class="solucion">
+							<img class="img-fluid" src="assets/img/others/solucion4.png" alt="portada solución">
+							<div class="info">
+								<h3>Todo en la nube</h3>
+								<p>Administrá tus envíos desde donde estés</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="plataforma-section">
+			<div class="container">
+				<div class="center-x">
+					<span class="subtitulo">Plataforma</span>
+				</div>
+				<h2>¿Cómo ayuda Loogístico?</h2>
+				<p class="mw-830">Con Loogístico podrás gestionar y controlar en tiempo real toda la logística diaria de tu negocio, tercerizando todas tus necesidades, además de enviar, hacer retiros, picking, devoluciones, cobranzas, gestiones, fletes, mudanzas, ver estados de entregas y mucho más.</p>
+				<div class="row">
+					<div class="offset-1 col-2">
+						<div class="dato">
+							<img src="assets/img/others/dato1.png">
+							<h4>50.000+</h4>
+							<p>Envíos hechos</p>
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="dato">
+							<img src="assets/img/others/dato2.png">
+							<h4>200+</h4>
+							<p>Usuarios activos</p>
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="dato">
+							<img src="assets/img/others/dato3.png">
+							<h4>4.8 Rating</h4>
+							<p>Mas de 200 validaciones</p>
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="dato">
+							<img src="assets/img/others/dato4.png">
+							<h4>Tracking real</h4>
+							<p>En los drivers</p>
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="dato">
+							<img src="assets/img/others/dato5.png">
+							<h4>25%</h4>
+							<p>Ahorro en fletes</p>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-6 center-x position-relative">
+						<div class="circulo"></div>
+						<img class="img-fluid position-relative" src="assets/img/others/phone2.png">
+					</div>
+					<div class="col-5 offset-1">
+						<div class="start-x flex-nowrap mb-3">
+							<img class="me-4" src="assets/img/others/icono1.png">
+							<div class="info">
+								<h3>Red de puntos Loockers</h3>
+								<p>Podrás conocer siempre de antemano a tu DELIVER asignado y contactar con el en momento necesario.</p>
+							</div>
+						</div>
+						<div class="start-x flex-nowrap mb-3">
+							<img class="me-4" src="assets/img/others/icono1.png">
+							<div class="info">
+								<h3>Loogistico for Business</h3>
+								<p>Ofrecemos un tarifario por zonas, un sistema de carga de pedidos, un ejecutivo de cuentas, servicio de manejo de valores, driver personalizado, pedidos Tokenizados y mucho mas!</p>
+							</div>
+						</div>
+						<div class="start-x flex-nowrap mb-3">
+							<img class="me-4" src="assets/img/others/icono1.png">
+							<div class="info">
+								<h3>RLoogístico Gestoría</h3>
+								<p>Un servicio de Gestiones por Hora. Paga solo por el tiempo que demore realizarse la gestión.</p>
+							</div>
+						</div>
+						<div class="start-x flex-nowrap mb-3">
+							<img class="me-4" src="assets/img/others/icono1.png">
+							<div class="info">
+								<h3>Loogistico e-commerce</h3>
+								<p>Desarrollamos nuestra propia API para que puedas integrarlo directamente a tu Portal e-Commerce! Loogistico provee un API de conexión con el cual tu empresa puede generar pedidos directamente a nuestro sistema</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="center-x mt-4">
+					<a href="#" class="btn-base blue">
+						Hablar con un asesor
+						<i class="fas fa-arrow-right ms-2"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="facilidad-section">
+			<div class="container">
+				<div class="center-x">
+					<span class="subtitulo">Facilidades</span>
+				</div>
+				<h2>Nos adecuamos a tu modelo de negocio</h2>
+				<p class="mw-830">Solicita tu PIN y suma tu negocio a la plataforma logística que busca revolucionar toda una industria, con tecnología y recursos humanos altamente capacitados.</p>
+				<div class="row">
+					<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="facilidad">
+							<div class="ct-imagen">
+								<img class="img-fluid" src="assets/img/others/facilidad1.png" alt="portada facilidad">
+							</div>
+							<div class="info">
+								<h3>Elegí tu tipo de transporte</h3>
+								<p>Disponemos de una amplia variedad de flota.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="facilidad">
+							<div class="ct-imagen">
+								<img class="img-fluid" src="assets/img/others/facilidad2.png" alt="portada facilidad">
+							</div>
+							<div class="info">
+								<h3>Planificá tus envíos</h3>
+								<p>Ahorrá planificando tus rutas desde la plataforma.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="facilidad">
+							<div class="ct-imagen">
+								<img class="img-fluid" src="assets/img/others/facilidad3.png" alt="portada facilidad">
+							</div>
+							<div class="info">
+								<h3>Sin Contratos</h3>
+								<p>Abonás solo por el uso del servicio, sin contratos ni plazos.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="center-x mt-5 pt-3">
+					<a href="#" class="btn-base blue">
+						Hablar con un asesor
+						<i class="fas fa-arrow-right ms-2"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="beneficio-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<span class="subtitulo">Beneficios varios</span>
+						<h2 class="text-start mb-4">Optimizamos los procesos logísticos benefiando a ambos roles en el proceso.</h2>
+						<div class="beneficios">
+							<div class="beneficio">
+								<div class="start-x">
+									<img class="me-2" src="assets/img/icons/bus.png" alt="icono bus">
+									<h3>Beneficios para deliverys</h3>
+									<p>Excelente oportunidad para generar ingresos adicionales o principales, con la ventaja de contar con apoyo y herramientas tecnológicas que optimizan las rutas y tiempos de entrega, facilitando el trabajo y mejorando la eficiencia en cada reparto.</p>
+								</div>
+							</div>
+							<div class="beneficio">
+								<div class="start-x">
+									<img class="me-2" src="assets/img/icons/pymes.png" alt="icono maletín">
+									<h3>Beneficios para empresas y pymes</h3>
+									<p>Externalizar la logística permite a las empresas centrarse en su core business mientras delegan una de las partes más complejas del proceso, sumado a las preferenciales y garantías ofrecidas con seguros.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-6 center-x">
+						<img class="img-fluid" src="assets/img/others/beneficio.png">
+					</div>
+				</div>
+				<div class="center-x mt-3">
+					<a href="#" class="btn-base blue">
+						VER BENEFICIOS
+						<i class="fas fa-arrow-right ms-2"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="plataforma-section">
+			<div class="container">
+				<div class="center-x">
+					<span class="subtitulo">Beneficios varios</span>
+				</div>
+				<h2>Gestiona toda la logística de tu<br> negocio desde la nube.</h2>
+				<div class="row mt-5 pt-3">
+					<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="tarjeta">
+							<div class="start-x">
+								<img class="me-2" src="assets/img/icons/mapa.png" alt="icono maletín">
+								<h3>Mapas y tarifas</h3>
+							</div>
+							<p>Nuestra plataforma te ofrece mapas interactivos que optimizan las rutas de entrega, asegurando rapidez y eficiencia en cada recorrido</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="tarjeta">
+							<div class="start-x">
+								<img class="me-2" src="assets/img/icons/caja.png" alt="icono maletín">
+								<h3>Manejo de carga</h3>
+							</div>
+							<p>Se asegura que cada envío llegue en perfectas condiciones, reduciendo riesgos y mejorando la eficiencia del proceso logístico.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+						<div class="tarjeta">
+							<div class="start-x">
+								<img class="me-2" src="assets/img/icons/caja2.png" alt="icono maletín">
+								<h3>Integraciones</h3>
+							</div>
+							<p>Ofrecemos un sistema de notificaciones en tiempo real que mantiene a los clientes informados sobre el estado de sus envíos, desde la confirmación hasta la entrega.</p>
+						</div>
+					</div>
+					<div class="col-12 mt-5 pt-3">
+						<img class="img-fluid" src="assets/img/others/notebook2.png" alt="notebook">
+					</div>
+				</div>
+				<div class="center-x mt-5">
+					<a href="#" class="btn-base blue">
+						Hablar con un asesor
+						<i class="fas fa-arrow-right ms-2"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="testimonios-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<div class="testimonios-carrusel mt-5">
+							<div class="testimonio">
+								<img src="assets/img/others/comilla.svg">
+								<p class="pt-4 pb-5">Buscamos Digitalizar la Logística de las MIPYMES de Latam y ayudar a generar empleos dignos y bien remunerados a Drivers Autónomos que posean algún tipo de vehículo.</p>
+								<div class="autor">
+									<img class="perfil" src="assets/img/others/user1.png">
+									<div class="ms-3">
+										<p class="nombre">Julio Guimaraes</p>
+										<span>CEO, Loogístico</span>
+									</div>
+								</div>
+							</div>
+							<div class="testimonio">
+								<img src="assets/img/others/comilla.svg">
+								<p class="pt-4 pb-5">Buscamos Digitalizar la Logística de las MIPYMES de Latam y ayudar a generar empleos dignos y bien remunerados a Drivers Autónomos que posean algún tipo de vehículo.</p>
+								<div class="autor">
+									<img class="perfil" src="assets/img/others/user1.png">
+									<div class="ms-3">
+										<p class="nombre">Julio Guimaraes</p>
+										<span>CEO, Loogístico</span>
+									</div>
+								</div>
+							</div>
+							<div class="testimonio">
+								<img src="assets/img/others/comilla.svg">
+								<p class="pt-4 pb-5">Buscamos Digitalizar la Logística de las MIPYMES de Latam y ayudar a generar empleos dignos y bien remunerados a Drivers Autónomos que posean algún tipo de vehículo.</p>
+								<div class="autor">
+									<img class="perfil" src="assets/img/others/user1.png">
+									<div class="ms-3">
+										<p class="nombre">Julio Guimaraes</p>
+										<span>CEO, Loogístico</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="offset-1 col-5">
+						<img class="img-fluid" src="assets/img/others/testimonios.png">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cta-preguntas-section">
+			<div class="container h-100">
+				<div class="center-y h-100">
+					<h2 class="text-white">Sumá tu negocio hoy mismo</h2>
+					<p class="text-white mb-4">Tenés preguntas? Estamos para ayudarte.</p>
+					<a class="btn-base white">
+						PREGUNTAS
+						<i class="fas fa-arrow-right ms-2"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+    </main>
+	<footer id="pie-de-pagina">
+		<div class="footer-middle">
+			<div class="container">
+				<div class="row pt-5">
+					<div class="col-lg-4 mb-5 mb-lg-0 text-center text-lg-start">
+						<img class="logo" src="assets/img/logo2.png" alt="logo">
+						<div class="direccion start-x flex-column mt-3 mb-5">
+							<div class="center-x mb-2">
+								<i class="fas fa-envelope me-2"></i>
+								<a href="mailto:info@loogistico.com">info@loogistico.com</a>
+							</div>
+							<div class="center-x mb-2">
+								<i class="fas fa-phone me-2"></i>
+								<a href="tel:+595971669889">(+595) 971 669889</a>
+							</div>
+							<div class="center-x">
+								<i class="fas fa-map-marker-alt me-2"></i>
+								<a href="#">Nicanor Torales 174, Asunción</a>
+							</div>
+						</div>
+						<div class="redes mt-3">
+							<a href="" target="_blank">
+								<img src="assets/img/icons/linkedin.svg" alt="logo linkedin">
+							</a>
+							<a href="" target="_blank">
+								<img src="assets/img/icons/instagram.svg" alt="logo instagram">
+							</a>
+							<a href="" target="_blank">
+								<img src="assets/img/icons/facebook.svg" alt="logo facebook">
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-7 offset-lg-1">
+						<div class="ms-xl-5 row">
+							<div class="col-6 col-sm mb-4">
+								<div>
+									<h4>Menú</h4>
+									<ul class="list-unstyled mt-3">
+										<li><a href="#">Inicio</a></li>
+										<li><a href="#">Nosotros</a></li>
+										<li><a href="#">Vacancias</a></li>
+										<li><a href="#">Contacto</a></li>
+										<li><a href="#">Beneficios</a></li>
+										<li><a href="#">Blog</a></li>
+										<li><a href="#">Tarifas</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-6 col-sm mb-4">
+								<div>
+									<h4>Recursos</h4>
+									<ul class="list-unstyled mt-3">
+										<li><a href="#">Comercios</a></li>
+										<li><a href="#">Drivers</a></li>
+										<li><a href="#">Cómo usar?</a></li>
+										<li><a href="#">Preguntas Frecuentes</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-6 col-sm mb-4">
+								<div>
+									<h4>Legales</h4>
+									<ul class="list-unstyled mt-3">
+										<li><a href="#">Política de Privacidad</a></li>
+										<li><a href="#">Términos y Condiciones</a></li>
+										<li><a href="#">Seguros</a></li>
+										<li><a href="#">Drivers</a></li>
+										<li><a href="#">Agendar Demo</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container align-items-center">
+				<div class="d-flex between-x">
+					<div class="start-x align-items-center">
+						<p class="me-2">Copyright © 2025 Loogístico, todos los derechos reservados</p>
+						<p>Desarrollado por: Código Center</p>
+					</div>
+					<div class="start-x align-items-center">
+						<p>Políticas del sitio</p>
+						<span class="mx-3">•</span>
+						<p>Términos y condiciones</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/aos.js"></script>
+	<script src="assets/js/carrusel.js"></script>
+	<script src="assets/js/header.js"></script>
+</body>
+</html>
