@@ -807,6 +807,9 @@ input[type=number]:focus {
 .solucion-section {
   padding-top: 100px;
 }
+.solucion-section .solucion {
+  text-align: center;
+}
 .solucion-section .solucion img {
   width: 276px;
   height: 176px;
@@ -889,7 +892,8 @@ input[type=number]:focus {
   border: 1px solid #E2E6E9;
   padding: 12px 12px 32px 12px;
   background: var(--white);
-  margin-inline: 1.5rem;
+  margin-inline: auto;
+  max-width: 330px;
 }
 .facilidad-section .facilidad .ct-imagen {
   display: flex;

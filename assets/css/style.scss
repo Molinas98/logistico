@@ -789,7 +789,6 @@ input[type="number"]:focus{
     box-shadow: 0 0 5px var(--blue) !important;
 }
 
-
 #consulta {
     min-height: 155px;
     background-color: #F5F7FC;
@@ -864,6 +863,8 @@ input[type="number"]:focus{
 .solucion-section {
     padding-top: 100px;
     & .solucion {
+        text-align: center;
+
         & img {
             width: 276px;
             height: 176px;
@@ -958,7 +959,8 @@ input[type="number"]:focus{
         border: 1px solid #E2E6E9;
         padding: 12px 12px 32px 12px;
         background: var(--white);
-        margin-inline: 1.5rem;
+        margin-inline: auto;
+        max-width: 330px;
 
         & .ct-imagen {
             display: flex;

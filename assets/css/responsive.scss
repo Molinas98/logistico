@@ -97,7 +97,6 @@
         padding: 0.5rem 1rem 0.5rem 1rem;
     }
 
-
     .mega-dropdown .mega-menu a {
         height: auto !important;
         padding: 0.5rem 0;
@@ -112,6 +111,7 @@
         color: var(--black);
     }
 }
+
 @media (max-width: 1200px) {
     nav {
         height: 86px;
@@ -120,7 +120,6 @@
     }
     
     .navbar-nav {
-        padding: 0 !important;
         align-items: start;
     }
 
@@ -213,34 +212,8 @@
         margin-bottom: 10px;
     }
 
-    .search-form {
-        margin-top: 110px;
-    }
-
-    .lugares-section .lugar {
-        min-height: 320px;
-        padding: 36px 16px;
-        padding-top: 20px;
-    }
-
-    .banners-section .banner-carrusel .slick-arrow {
-        left: 45%;
-    }
-
-    .banners-section, .interna-novedad-section {
-        padding-top: 120px;
-    }
-
-    .areas-section .col-lg-5 {
-        padding: 0 10px 0 40px;
-    }
-
-    .interna-novedad-section .encabezado .container .imagen {
-        margin-top: 0px;
-    }
-
-    .interna-novedad-section .encabezado {
-        margin-bottom: 80px; 
+    .portada-section {
+        padding: 100px 0 80px 0;
     }
 }
 
@@ -252,772 +225,63 @@
 }
 
 @media (max-width: 991px) {
+
     .footer-bottom {
-        & .container {
+        & .between-x {
             flex-direction: column;
-            height: auto;
-            padding: 30px 10px;
-            border-radius: 30px;
+        }
 
-            & > * {
-                margin-bottom: 0.5rem;
-            }
-
-            & .logo img {
-                height: 100px;
-            }
-            
-            & .whatsapp {
-                width: 28px;
-                height: 28px;
-                box-sizing: border-box;
-                margin-left: 5px;
-            }
+        & .start-x  {
+            justify-content: center !important;
         }
     }
 
-    .evento {
-        & .info {
-            padding-bottom: 2rem;
-        }
+    .portada-section {
+        padding: 50px 0 80px 0;
     }
 
-    .carrusel-eventos {
-        & .slick-arrow {
-            background-color: #09274C;
-            left: auto !important;
-            right: -20px;
-            bottom: 35px !important;
-        }
-    }
-
-    .ver-todo {
-        width: 100%;
-        display: flex;
-        justify-content: end;
-        margin-top: 1rem;
-    }
-
-    .circuitos-section {
-        & .circuito {
-            flex-direction: column;
-            height: 400px;
-            border-radius: 20px;
-            padding: 40px 30px;
-            box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.25);
-    
-            & h2 {
-                color: #09274C;
-                margin-top: 0px;
-                margin-bottom: 1rem;
-            }
-    
-            & p {
-                width: 100%;
-            }
-    
-            & .ruta {
-                right: 0;
-                left: 0;
-                bottom: 10px;
-                max-width: 90%;
-                margin-inline: auto;
-            }
-    
-            & .btn-base2 {
-                z-index: 1;
-                margin-bottom: 30px;
-            }
-        }
-    }
-
-    .lugares-section .lugar {
-        min-height: 450px;
-    }
-
-    .encuesta-section {
-        & .container {
-            padding-top: 40px;
-            position: relative;
-        
-            & .encabezado {
-                width: auto;
-                position: static;
-                margin-inline: 10%;
-                margin-bottom: 3rem;
-            }
-        }
-    }
-
-    .ministra-section {
-    
-        & .ministra-banner {
-            & .container {
-                height: 280px;
-                margin-bottom: 80px;
-            }
-        }
-    }
-
-    .galeria-section {
-        & .parent {
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(17, 1fr);
-            grid-column-gap: 0.5rem;
-            grid-row-gap: 0.5rem;
-            
-    
-            & > div {
-                border-radius: 20px;
-                overflow: hidden;
-                position: relative;
-    
-                & .img-fluid {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-    
-                }
-            }
-        }
-            
-        & .foto1 { grid-area: 1 / 2 / 2 / 3; }
-        & .foto2 { grid-area: 2 / 1 / 4 / 3; }
-        & .foto3 { grid-area: 4 / 2 / 6 / 4; }
-        & .foto4 { grid-area: 1 / 3 / 4 / 7; }
-        & .foto5 { grid-area: 7 / 1 / 12 / 4; }
-        & .foto6 { grid-area: 4 / 4 / 7 / 7; }
-        & .foto7 { grid-area: 7 / 4 / 12 / 7; }
-        & .foto8 { grid-area: 12 / 1 / 16 / 7; }
-        & .foto9 { grid-area: 16 / 2 / 18 / 4; }
-        & .foto10 { grid-area: 16 / 4 / 18 / 7; }
-    }
-    
-    .director-section .directora {
-        width: 200px;
-    }
-
-    .banners-section .banner-carrusel .slick-arrow {
-        left: 60%;
-    }
-
-    .historia-section .rigth {
-        padding: 0 30px;
-    }
-
-    .areas-section .col-lg-5 {
-        padding: 0 20px 0 20px;
-    }
-
-    .agenda-section {
-        padding-top: 0;
-    }
-
-    .ct-evento .info {
-        margin-left: -340px;
-        background-color: rgba(255, 255, 255, 0.8);
-
-        &.left {
-            margin-right: -340px;
-        }
-    }
-
-    .simple-section .container {
-        padding-inline: 30px;
-    }
-
-    .interna-novedad-section .container {
-        & .col-lg-8, & .col-lg-4 {
-            padding-inline: 70px;
-            border-right: none;
-        }
-    }
-
-    .galeria-section .container {
-        padding-top: 40px;
+    .plataforma-section p {
+        max-width: 100%;
     }
 } 
 
 
 @media (max-width: 767px) {
-    .portada-section {
-        height: 500px !important;
-        & h1 {
-            min-width: 100%;
-        }
-    }
-    .grupo-info {
-        & .righ {
-            width: 50dvw;
-        }
-    
-        & .left {
-            width: 50dvw;
-        }
+    .solucion-section {
+        padding-top: 80px;
     }
 
-    .info-section .separador {
-        top: 0%;
-    }
-
-    .marcas {
-        & * {
-            transition: all 0.5s ease;
-            margin-inline: 0.6rem;
-        }
-    }
-
-    .op-productos, .op-categorias {
-    
-        & li {
-            padding: 5px 10px;
-            font-size: 0.75rem;
-            margin-bottom: 1rem;
-            max-width: 110px;
-        }
-    }
-    
-    .op-categorias li {
-        max-width: 100%;
-        padding: 5px 10px;
-    }
-    
-    .lugares-section .lugar {
-        min-height: 370px;
-    }
-
-    .encuesta-section .container .encabezado .contenido {
-        margin-left: 0
-    }
-
-    .director-section .start-x {
-        justify-content: center;
-    }
-
-    
-    .director-section .flor {
-        width: 77px;
-        height: 53px;
-        position: absolute;
-        right: -20px;
-        bottom: -50px;
-    }
-
-    .banners-section .banner-carrusel .slick-arrow {
-        left: auto;
-        right: -20px;
-    }
-
-    .visitanos-section .fondo {
-        opacity: 0.5;
-    }
-
-    .interna-novedad-section {
-            & .encabezado {
-                position: relative;
-                z-index: 10;
-                margin-bottom: 150px;
-
-                & .container {
-                    min-height: 205px;
-                    height: 100%;
-                    padding-bottom: 140px;
-                    display: flex;
-                    flex-direction: column;
-
-                    & .info {
-                        margin-left: 0;
-                        margin-top: 30px;
-                        margin-inline: 20px;
-
-                        & p {
-                            max-width: 100%;
-                        }
-                    }
-
-                    & .end-x {
-                        flex-direction: column;
-                        align-items: center;
-                    }
-            
-                    & .imagen {
-                        bottom: -130px;
-                        position: absolute;
-                        margin: 0;
-                    }
-
-                    & h2 {
-                        max-width: 100%;
-                    }
-
-                    & h4 {
-                        margin-bottom: 0;
-                        margin-inline: 0;
-
-                    }
-
-                    & .redes {
-                        margin-top: 1rem;
-                        margin-inline: 0;
-                    }
-                }
-            }
-    }
-
-    .interna-novedad-section .encabezado {
-        margin-bottom: 100px;
-    }
-
-    .interna-section .contendio {
-        margin-inline: 5%;
-    }
-
-    .ct-evento {
-        flex-direction: column;
-
-        & .info {
-            background-color: var(--white);
-            margin-top: -20px;
-            margin-left: 0;
-            margin-right: 0;
-
-            &.left {
-                margin-left: 0;
-                margin-right: 0;
-            }
-        }
-    
-        & .fecha, & .mapa {
-            height: 50px;
-            width: 160px;
-            flex-direction: row;
-            margin-left: 0;
-            z-index: 10;
-            margin-top: -50px;
-    
-        }
-    }
-
-    .escuela {
-        padding: 40px 20px 20px 20px;
-
-        & .mapa {
-            width: 100%;
-            justify-content: end;
-            margin-top: 0.5rem;
-        }
-    }
-
-    .lugares-section .bg-white h2 {
-        padding-bottom: 15px;
-        padding-right: 30%;
-    }
-
-    .lugares-section .bg-white .enlaces {
-        right: 0px;
-    }
-
-    .area-section {
-        & .container {
-            min-height: 205px;
-            height: 100%;
-
-            & .end-x {
-                width: 100%;
-                margin-top: 0.5rem;
-            }
-        }
-    }
-
-    .interna-novedad-section .encabezado h2 {
-        margin-top: 2rem; 
-    }
 } 
 
 @media (max-width: 576px) {
-    .grupo-info {
-        & .righ {
-            width: 60dvw;
-        }
+    h1 {
+        font-size: 34px;
+        letter-spacing: -1px;
+    }
+
+    .clientes-section h2 {
+        font-size: 24px;
+        padding-bottom: 1rem;
+    }
+
     
-        & .left {
-            width: 60dvw;
-        }
+    h2 {
+        color: var(--black);
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.3;
     }
 
-    .info-section .separador {
-        top: -9dvh;
+    .testimonios-section .testimonio p {
+        font-size: 18px;
     }
 
-    .slick-arrow {
-        cursor: pointer !important;
-        position: absolute;
-        top: 80%;
-        z-index: 10;
-    }
-
-    .titulos {
-        max-width: 100%;
-        margin-inline: auto;
-    }
-
-    .contenedor_producto .img-fluid {
-        max-width: 160px;
-    }
-
-    .marcas {
-        & * {
-            max-width: 25dvw;
-        }
-    }
-
-    .footer-top .container {
-        & > .row {
-            padding: 30px 15px 20px 15px;
-        }
-    }
-
-    .evento {
-        & .titulo {
-
-            & .tag {
-                margin-top: 1rem;
-                margin-left: 0;
-            }
-        }
-    }
-
-    .lugares-section .lugar {
-        min-height: 320px;
-    }
-
-    .encuesta-section {
-        & .container {
-            padding-top: 40px;
-            position: relative;
-        
-            & .encabezado {
-                margin-inline: auto;
-            }
-
-            & form {
-                padding: 0 15px 15px 15px;
-                & img {
-                    top: -150px;
-                }
-            }
-        }
-    }
-
-    .ministra-section {
-
-        & .container {
-            flex-direction: column;
-        }
-    
-        & .ministra-banner {
-            & .container {
-                height: 370px;
-                margin-bottom: 100px;
-            }
-        }
-    }
-
-    .img-cpj {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .areas-section {
-
-        & .col-lg-3:nth-child(1) .enlaces {
-            top: -30px;
-            right: -2%;
-        }
-    
-        & .col-lg-3:nth-child(2) .enlaces {
-            top: 30px;
-            right: 5%;
-        }
-    
-        & .col-lg-3:nth-child(2) .img-cpj:nth-child(2) .enlaces {
-            top: 100px;
-            right: 0px;
-            left: 0;
-        }
-
-    }
-
-    .noticias-section .container {
-        & .next {
-            display: none !important;
-        }
-
-        & .prev {
-            display: none !important;
-        }
-    }
-
-    .ct-evento {
-        align-items: start;
-    
-        & .info {
-            position: relative;
-            padding-inline: 10px;
-            padding-bottom: 20px;
-
-            & h3 {
-                max-width: 90%;
-                margin-top: 1.2rem;
-            }
-
-            & .logo-evento {
-                height: 50px;
-                position: absolute;
-                top: 8px;
-                right: 10px;
-            }
-        }
-    
-        & .portada {
-            width: 100%;
-            height: auto;
-        }
-
-        & .fecha, & .mapa {
-            margin-left: 10px;
-            height: 40px;
-            width: 130px;
-    
-            & span {
-                font-size: 16px;
-            }
-        }
-
-        & .fecha.left, & .mapa.left {
-            margin-left: 10px;
-        }
-    }
-
-    .search-form {
-        padding: 10px 20px 15px 20px;
-    }
-
-    .swiper-button-next, .swiper-button-prev {
-        display: none;
-    }
-
-    .simple-section .container {
-        padding-inline: 20px;
-    }
-
-    .lugares-section .bg-white .grupo {
-        margin-inline: 0.2rem;
-    }
-
-    .interna-novedad-section .container {
-        & .col-lg-8, & .col-lg-4 {
-            padding-inline: 40px;
-        }
-    }
-
-    h2, .director-section h2 {
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 35px; /* 100% */
-        letter-spacing: 1px;
-    }
-
-    .autoridades-section {
-        & .container {
-            & h2 {
-                color: #09274C;
-                font-size: 45px;
-                font-weight: 400;
-                letter-spacing: 1px;
-                margin-bottom: 0;
-            }
-    
-            & h3 {
-                font-size: 35px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 35px; /* 100% */
-                letter-spacing: 1px;
-            }
-        }
-    }
-
-    .banners-section .banner-evento {
-        & h3 {
-            color: #FDF5E2;
-            font-family: var(--ft-title);
-            font-size: 45px;
-            font-weight: 400;
-            letter-spacing: 1px;
-            margin-bottom: 0;
-        }
-    }
 } 
 
 @media (max-width: 480px) {
-    .ministra-section {
-
-        & .container {
-            flex-direction: column;
-        }
-    
-        & .ministra-banner {
-            & .container {
-                height: 380px;
-                margin-bottom: 130px;
-
-                & .info {
-                    margin-inline: auto;
-                    text-align: center;
-                    & h2 {
-                        text-align: center;
-                    }
-
-                    & p {
-                        text-align: center;
-                        max-width: 90%;
-                        margin-inline: auto;
-                    }
-                    
-                }
-
-            }
-
-            & .end-x {
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-            }
-
-            & .redes {
-                margin-inline: 0 !important;
-            }
-
-            & .imagen {
-                margin-top: 20px !important;
-                margin-inline: 0 !important;
-            }
-        }
-    }
-
-    .informe-section {
-    
-        & .informe {
-            height: auto;
-            padding: 25px 10px;
-
-            & .center-x {
-                flex-direction: column-reverse;
-
-                & h2 {
-                    margin-top: 1rem;
-                    text-align: center;
-                }
-            }
-        }
-    
-    }
-
-    .ministra-section .ministra-info .col-lg-8 {
-        padding: 32px 20px 40px 20px;
-    }
-
-
-    .vision-section .mision, .vision-section .vision {
-        padding-inline: 20px;
-    }
-
-    .vision-section .mision img {
-        width: 77px;
-        height: 53px;
-    }
-
-    .director-section .flor {
-        right: -10px;
-        bottom: -50px;
-    }
-
-    .director-section .container {
-        padding: 80px 10px 40px 10px;
-    }
-
-    .banners-section .banner-evento {
-        padding: 40px 20px 35px 20px;
-    }
-
-    .teatro-section {
-        & .container {
-            border-radius: 20px;
-            background: linear-gradient(180deg, #FFF 0%, #E2E8F0 100%);
-            padding: 27px 10px 50px 10px;
-    
-            & .contenido {
-                padding: 28px 15px;
-                border-radius: 20px;
-                border: 2px solid rgba(100, 117, 134, 0.36);
-                background: var(--white);
-            }
-
-            & .grupo {
-                width: 60px;
-                height: 60px;
-                margin-inline: 0.3rem;
-                flex-wrap: wrap;
-            }
-        }
-    }
-
-    .silla {
-        top: 100px !important;
-        opacity: 0.5;
-    }
-
-    .autoridades-section {
-        & .container {
-            padding: 30px 20px;
-        }
-    }
-
-    
-    .noticias-section .container {
-        padding: 40px 5px;
-
-        & .col-xl-10 {
-            padding-inline: 30px !important;
-        }
-    }
-
-    .noticia .me-3 {
-        display: none;
-    }
-
-    .noticia h3 {
-        margin-top: 25px;
+    .portada-section .phone {
+        width: 180px;
     }
 }
-
-@media (max-width: 400px) {
-    .grupo-info {
-        & .righ {
-            width: 90dvw;
-        }
-    
-        & .left {
-            width: 90dvw;
-        }
-    }
-
-    .info-section .separador {
-        top: -12dvh;
-    }
-} 
 
